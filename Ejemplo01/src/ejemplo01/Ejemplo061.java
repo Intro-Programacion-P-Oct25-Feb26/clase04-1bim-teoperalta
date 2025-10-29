@@ -23,7 +23,7 @@ public class Ejemplo061 {
         String paralelo = "A";
         String asignatura = "Introducción a la programación ";       
                
-        System.out.printf("Nombre:\n\t%s \n Apellido: \n\t%s Edad:%s\n Dirección: \n\n\t%s\n ---- \n Universidad: %s\n Ciclo: %s\n Asignatura: %s\n Paralelo: \n\t%s\n ", nombreEstudiante, 
+        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:%s\nDirección:\n\n\t%s\n----\nUniversidad:%s\nCiclo:%s\nAsignatura:%s\nParalelo:\n\t%s\n", nombreEstudiante, 
                 apellidoEstudiante, edad, dirección, universidad, ciclo, asignatura, paralelo);
         
         
