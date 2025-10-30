@@ -27,9 +27,9 @@ public class Ejemplo1 {
         double notaAsignatura2;
         
         System.out.println("Ingrese nombre de asignatura 1");
-        nombreAsignatura1 = entrada.nextLine();
+        nombreAsignatura1 = entrada.nextLine(); // nextline me permite recibir una cadena 
         System.out.println("Ingrese nota de asignatura 1");
-        notaAsignatura1 = entrada.nextDouble();
+        notaAsignatura1 = entrada.nextDouble(); // nectdouble me permite recibir un dato decimal
         System.out.println("Ingrese nombre de asignatura 2");
         nombreAsignatura2 = entrada.nextLine();
         System.out.println("Ingrese nota de asignatura 2");
