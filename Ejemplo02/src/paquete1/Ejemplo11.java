@@ -31,8 +31,8 @@ public class Ejemplo11 {
         System.out.println("Ingrese nota de asignatura 1");
         notaAsignatura1 = entrada.nextDouble(); // nectdouble me permite recibir un dato decimal
        
-        
-        System.out.printf("Asignatura 1: %s\nNota 1:%.2f\n",
+        // %.2f significa que voy a recibir un dato decimal y presentarlo con dos decimales 
+        System.out.printf("Asignatura 1: %s\nNota 1:%.1f\n",
                 nombreAsignatura1,
                 notaAsignatura1
         );
